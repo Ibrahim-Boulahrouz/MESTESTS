@@ -3,7 +3,7 @@
 //start_page('TD2');
 //?>
 
-<form action="startdb.php" method="post">
+<form action="../MODELS/startdb.php" method="post">
     <label for="identifiant">Identifiant :</label><input id="identifiant" type="text" name="identifiant"><br/>
 
 <!--    <label for="civ1">Homme :</label><input id="civ1" type="radio" name="civ" value="Homme" checked>-->
