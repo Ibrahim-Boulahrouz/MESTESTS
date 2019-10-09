@@ -11,5 +11,5 @@
     $recup = $db->query('SELECT * FROM user');
 
     while($row = $recup->fetch()) {
-        echo $row['identifiant'];
+        echo $row['id'];
     }
