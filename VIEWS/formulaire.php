@@ -1,7 +1,7 @@
 <?php
-include 'utils.inc.php';
-start_page('TD2');
-?>
+//include 'utils.inc.php';
+//start_page('TD2');
+//?>
 
 <form action="dataprocessing.php" method="post">
     <label for="identifiant">Identifiant :</label><input id="identifiant" type="text" name="identifiant"><br/>
@@ -31,6 +31,3 @@ start_page('TD2');
 
 </form>
 
-<?php
-end_page();
-?>
