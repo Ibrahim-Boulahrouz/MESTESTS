@@ -6,7 +6,7 @@
 
 
 
-    $db = new PDO('mysql:mysql-ibrahim-boulahrouz.alwaysdata.net;dbname=ibrahim-boulahrouz_db', '189617', 'maximeaidemoistp');
+    $db = new PDO('mysql:host=mysql-ibrahim-boulahrouz.alwaysdata.net;dbname=ibrahim-boulahrouz_db', '189617', 'maximeaidemoistp');
 
     $recup = $db->query('SELECT * FROM user');
     echo $recup;
