@@ -10,4 +10,6 @@
 
     $recup = $db->query('SELECT * FROM user');
 
-    echo $recup->fetchAll(PDO::FETCH_ASSOC);
+    while($row = $recup->fetchAll(PDO::FETCH_ASSOC)) {
+        echo $row;
+    }
